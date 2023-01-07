@@ -1,0 +1,34 @@
+The following packages are the packages installed
+into this application.
+(npm install and yarn add are the same thing)
+1. axios
+2. firebase
+3. styled-components
+4. react-icons
+4. react-redux
+5. @reduxjs/toolkit
+6. react-router-dom
+
+HOW TO WORK WITH FIREBASE
+ENTER: firebase.google.com
+    go to console => register new project
+    {my project name is 
+(Firebase project Name: Joel-react-netflix-clone)}=>
+    enable all and => continue  => 
+    continue =>
+    create project =>
+    create => 
+    you will be redirected to the project page => 
+    sellect web =>
+    register with any name =>
+    copy the codes provided =>
+create a new file in UTILS (firebase-config.js) and past
+remove the comment remove the {getAnalytics} =>
+import = import { getAuth } from "firebase/auth";
+    EXPORT THE CODE AS BELLOW: export const firebaseAuth = getAuth(app)
+Head over to authentication and click get started
+enable ANY OF THE MEDIUM e.g Email/password =>
+sellect ENABLE => 
+
+THIS IS THE LINK WHERE I GOT THE MOVIE DATABASE API 
+https://developers.themoviedb.org/3/getting-started/introduction
